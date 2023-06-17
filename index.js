@@ -27,7 +27,7 @@ const List = mongoose.model("List", listSchema)
 
 const defaultItems = [
   { name: "Welcome to your todolist" },
-  { name: "Hit the + button to add aa new task" },
+  { name: "Hit the + button to add a new task" },
   { name: "<-- Hit this to delete a task" },
 ]
 
@@ -99,6 +99,6 @@ app.post("/delete", async (req, res) => {
   }
 })
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("server running on port 3000")
 })
