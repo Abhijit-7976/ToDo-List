@@ -1,7 +1,7 @@
 
 # Todo List
 
-A brief description of what this project does and who it's for
+A site to track and manage your tasks
 
 
 ## Deployed Link
